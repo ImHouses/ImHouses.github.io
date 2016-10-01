@@ -1,4 +1,4 @@
-header {
+div.header {
     width: 35%; 
     height: 100%; 	
     margin: 0; 
@@ -8,9 +8,6 @@ header {
     background: url(resources/images/backgroundSide.png);
 }
 
-div.container {
-    width: 65%;
-    height: 100%;
-    padding: 0;
-    border: 0;
+div.container { 
+    width: 900px; margin: 0; padding: 0;
 }
