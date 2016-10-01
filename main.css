@@ -1,8 +1,16 @@
 header {
-    width: 200px; 
+    width: 35%; 
     height: 100%; 	
     margin: 0; 
     padding: 0; 
     border: 0; 
     float: left;
+    background: url(resources/images/backgroundSide.png);
+}
+
+div.container {
+    width: 65%;
+    height: 100%;
+    padding: 0;
+    border: 0;
 }
