@@ -1,16 +1,44 @@
 body {
   margin: 0;
   padding: 0;
+color: #222;
+font-size: 16px;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight: 300;
+background-color: #f6f6f6;
 }
- div.header {
+
+
+ header {
+   color: #ddd;
+ }
+ header {
+   background-color: #000
+ }
+ header {
     width: 30%;
     height: 100%;
     margin: 0;
     padding: 0;
     border: 0;
     float: left;
-    background: url(resources/images/backgroundSide.png);
     text-align: center;
+    line-height: 1.625em;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+header a{
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -21,6 +49,32 @@ div.container {
 div.content {
   width: 70%; height: 100%; 	margin: 0; padding: 0; border: 0; float: right; background: #FFFFFF;
 }
+
+div.header-wrapper {
+  position: relative;
+  display: table;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+      color: #ddd
+}
+div.section {
+  position: relative;
+  z-index: 1;
+}
+.top {
+  display: table-row;
+  width: 100%;
+}
+.middle {
+  display: table-cell;
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+    text-align: center;
+    vertical-align: middle;
+}
 .logo {
   position: relative;
   display: block;
@@ -28,6 +82,22 @@ div.content {
   width: 96;
   height: 96;
   margin: auto;
+}
+.cover-image {
+  background-image:url(http://static.tumblr.com/f2d96c93a24144d9c3feb7600c4df939/fzrzlzz/a0jo8ozwl/tumblr_static_tumblr_static_1g9v9ewy90f4cs440kogocwss_focused_v3.jpg);
+  opacity: .3;
+}
+.cover-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-right: 1px;
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: cover;
 }
 .square {
   border-radius: 2px;
