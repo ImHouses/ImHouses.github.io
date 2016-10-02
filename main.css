@@ -1,5 +1,10 @@
 div.header {
-    width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: left;
     background: url(resources/images/backgroundSide.png);
 }
 
@@ -8,5 +13,5 @@ div.container {
 }
 
 div.content {
-  width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #FFFFFF;
+  width: 60%; height: 100%; 	margin: 0; padding: 0; border: 0; float: right; background: #FFFFFF;
 }
