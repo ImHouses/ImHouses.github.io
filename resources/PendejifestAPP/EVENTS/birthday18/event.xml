@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Fiesta de cumpleaños 19" date="Sábado 22 de octubre 2016">
+  <info>
+  *****FIESTA DE CUMPLEAÑOS 19*****
+  Chicos, como todos saben cumplo años el 19 de octubre y quería emborracharme con
+  ustedes porque los extraño.
+  Están invitados a mi peda en mi departamento, abajo tendrán la información de
+  cómo llegar (rutas, referencias, mi número, etc.)
+  Pueden traer lo que ustedes quieran (yo lo recomiendo)
+  Habrá ricos tacos de canasta que a todos nos gustarán y lo más importante es 
+  que nos la pasemos bien, los espero. <3
+  </info>
+  <guests number="10">
+    <item id="1"
+          name="Raziel" 
+          <!--- Photo directory --->
+          photo="./photos/guests/1.jpg">
+  </guests>
+  <address>
+  <info>
+   Metrobús Tenayuca de la Línea 3 (la verde)
+   Indios Verdes, andén J, camiones que dicen TENAYUCA, se bajan en pirámide y me llaman.
+   Mi número: 5536572879
+  </info>
+  </address>
+</event>
