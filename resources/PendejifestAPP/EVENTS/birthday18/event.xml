@@ -13,14 +13,13 @@
   <guests number="10">
     <item id="1"
           name="Raziel" 
-          <!--- Photo directory --->
           photo="./photos/guests/1.jpg"/>
   </guests>
-  <address>
-  <info>
+  <address value="Calzada Vallejo 1268, Colonia Santa Rosa, Gustavo A. Madero, CDMX">
+  <addressinfo>
    Metrobús Tenayuca de la Línea 3 (la verde)
    Indios Verdes, andén J, camiones que dicen TENAYUCA, se bajan en pirámide y me llaman.
    Mi número: 5536572879
-  </info>
+  </addressinfo>
   </address>
 </event>
